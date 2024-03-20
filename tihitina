@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+    form {
+      max-width: 300px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+    }
+    h2 {
+      text-align: center;
+      color: #333333;
+    }
+    label, input {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #cccccc;
+    }
+    input[type="submit"] {
+      background-color: #4e9af1;
+      color: #ffffff;
+      padding: 10px;
+      border: none;
+      width: 100%;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #357bd8;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>Login</h2>
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+      <input type="submit" value="Login">
+    </div>
+  </form>
+</body>
+</html>
